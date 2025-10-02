@@ -20,7 +20,7 @@ def power(x, n):
     k = 1
     while k < n:
         P *= x
-        K += 1
+        k += 1
     return P
 
 if __name__ == "__main__":
